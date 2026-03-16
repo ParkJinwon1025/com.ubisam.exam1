@@ -41,8 +41,14 @@
 		    <artifactId>querydsl-jpa</artifactId>
 		</dependency>
 
+		<!-- Rest-->
 
 		<dependency>
+            <groupId>io.u2ware.common</groupId>
+            <artifactId>u2ware-common-data</artifactId>
+            <version>3.5.11</version>
+        </dependency>
+			<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
@@ -76,13 +82,6 @@
 			<scope>test</scope>
         </dependency>
 
-		<!-- Rest-->
-
-		<dependency>
-            <groupId>io.u2ware.common</groupId>
-            <artifactId>u2ware-common-data</artifactId>
-            <version>3.5.11</version>
-        </dependency>
 	</dependencies>
 
 	<build>
